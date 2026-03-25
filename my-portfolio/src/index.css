@@ -1,0 +1,66 @@
+:root {
+  font-family: 'Space Grotesk', 'Inter Tight', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #d7e4e3;
+  background:
+    radial-gradient(circle at top, rgba(14, 45, 57, 0.72), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(11, 34, 41, 0.8), transparent 26%),
+    #070c10;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --bg: #070c10;
+  --panel: #0b1218;
+  --panel-2: #0f1820;
+  --border: rgba(112, 251, 232, 0.1);
+  --accent: #56f0df;
+  --accent-strong: #7df6e8;
+  --text-strong: #f4faf9;
+  --text-muted: #8ea4a9;
+  --text-dim: #62777c;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(circle, rgba(255, 255, 255, 0.11) 1px, transparent 1px),
+    radial-gradient(circle at top, rgba(14, 45, 57, 0.72), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(11, 34, 41, 0.8), transparent 26%),
+    linear-gradient(180deg, #0a0f13, #06090c);
+  background-size: 20px 20px, auto, auto, auto;
+  color: #d7e4e3;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
