@@ -150,7 +150,6 @@ export const galleryProjects = [
       { src: dobiReferralScreen, alt: 'DobiNow referral screen', fit: 'contain' },
       { src: dobiProfileScreen, alt: 'DobiNow profile screen', fit: 'contain' },
     ],
-    link: 'https://github.com/BerryMuchocho',
   },
   {
     title: 'BrainBurst Quiz App',
@@ -174,8 +173,6 @@ export const galleryProjects = [
     eyebrow: 'Project 03',
     subtitle:
       'A curated set of standalone interface sections designed separately and presented as a sideways-scrolling component gallery.',
-    summary:
-      'Instead of presenting an unfinished product, this case study highlights individual UI pieces that explore hierarchy, layout rhythm, and reusable interface patterns.',
     type: 'ui-lab',
     focus: 'Component polish, layout hierarchy, and reusable interface thinking.',
     tags: ['UI Design', 'Component Systems', 'Responsive Layout'],
