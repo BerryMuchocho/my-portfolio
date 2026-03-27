@@ -56,7 +56,7 @@ export const projects = [
     description:
       'A modern laundry service web app that allows users to schedule pickups, track orders, and manage services seamlessly.',
     techStack: ['React', 'Tailwind CSS', 'Responsive UI'],
-    liveDemo: 'https://your-dob-now-link.com',
+    liveDemo: '',
     github: 'https://github.com/BerryMuchocho',
     screenshot: {
       src: dobiHomeScreen,
@@ -71,7 +71,7 @@ export const projects = [
     description:
       'A fast-paced quiz application with category selection, timer-based gameplay, and dynamic scoring using live API data.',
     techStack: ['JavaScript', 'API', 'Game Logic'],
-    liveDemo: 'https://your-quiz-app-link.com',
+    liveDemo: 'https://alx-fe-capstone-project-snowy.vercel.app/',
     github: 'https://github.com/BerryMuchocho/alx-fe-capstone-project',
     screenshot: {
       src: brainBurstHomeScreen,
@@ -80,13 +80,54 @@ export const projects = [
   },
 ]
 
-// Progress bars used in the about section
-export const stack = [
-  { name: 'Frontend Architecture', value: 95 },
-  { name: 'React Ecosystem', value: 92 },
-  { name: 'Tailwind CSS', value: 89 },
-  { name: 'Responsive UI Development', value: 90 },
-]
+// Stack overview used in the about section
+export const stack = {
+  intro:
+    "Tools and technologies I've used to build and ship frontend projects, presented in a way that matches where I am right now.",
+  groups: [
+    {
+      title: 'Core Stack',
+      items: [
+        'HTML5',
+        'CSS3',
+        'JavaScript (ES6+)',
+        'React',
+        'Tailwind CSS',
+        'React Router',
+        'Zustand',
+        'Vite',
+        'Git & GitHub',
+      ],
+    },
+    {
+      title: 'Frontend Skills',
+      items: [
+        'Responsive Design',
+        'Component Architecture',
+        'State Management',
+        'REST API Integration',
+        'SPA Routing',
+        'Debugging',
+        'UI Implementation from Design References',
+      ],
+    },
+    {
+      title: 'Currently Learning',
+      items: [
+        'TypeScript',
+        'Testing with Vitest / Testing Library',
+        'Accessibility',
+        'Advanced React Patterns',
+        'Performance Optimization',
+      ],
+    },
+  ],
+  proof: [
+    'DobiNow: React, Tailwind CSS, routing, and responsive service-booking flows',
+    'BrainBurst Quiz App: JavaScript, API integration, game logic, and dynamic UI states',
+    'UI Explorations: component systems, layout studies, and polished frontend presentation',
+  ],
+}
 
 // Editorial project gallery content
 export const galleryProjects = [
@@ -102,14 +143,14 @@ export const galleryProjects = [
     tags: ['React', 'Service Flow', 'Responsive'],
     outcome: 'Built around a smoother booking-to-tracking journey for everyday users.',
     screenshots: [
-      { src: dobiHomeScreen, alt: 'DobiNow home screen' },
+      { src: dobiHomeScreen, alt: 'DobiNow home screen', fit: 'contain' },
       { src: dobiBookScreen, alt: 'DobiNow booking screen', fit: 'contain' },
       { src: dobiServiceScreen, alt: 'DobiNow service selection screen', fit: 'contain' },
-      { src: dobiTrackOrderScreen, alt: 'DobiNow order tracking screen' },
-      { src: dobiReferralScreen, alt: 'DobiNow referral screen' },
-      { src: dobiProfileScreen, alt: 'DobiNow profile screen' },
+      { src: dobiTrackOrderScreen, alt: 'DobiNow order tracking screen', fit: 'contain' },
+      { src: dobiReferralScreen, alt: 'DobiNow referral screen', fit: 'contain' },
+      { src: dobiProfileScreen, alt: 'DobiNow profile screen', fit: 'contain' },
     ],
-    link: 'https://your-dob-now-link.com',
+    link: 'https://github.com/BerryMuchocho',
   },
   {
     title: 'BrainBurst Quiz App',
@@ -126,19 +167,45 @@ export const galleryProjects = [
       { src: brainBurstHomeScreen, alt: 'BrainBurst Quiz App home screen' },
       { src: brainBurstResultScreen, alt: 'BrainBurst Quiz App results screen', fit: 'contain' },
     ],
-    link: 'https://your-quiz-app-link.com',
+    link: 'https://alx-fe-capstone-project-snowy.vercel.app/',
   },
   {
-    title: 'Responsive UI Studies',
+    title: 'UI Explorations',
     eyebrow: 'Project 03',
     subtitle:
-      'A set of interface explorations focused on responsive layouts, clean structure, and polished frontend presentation.',
+      'A curated set of standalone interface sections designed separately and presented as a sideways-scrolling component gallery.',
     summary:
-      'A collection of layout experiments used to sharpen spacing, hierarchy, and responsive decision-making across screen sizes.',
-    type: 'mobile',
-    focus: 'Layout systems, hierarchy, and mobile-first presentation choices.',
-    tags: ['UI Systems', 'Mobile First', 'Layout'],
-    outcome: 'Explores how visual clarity can hold up from desktop down to mobile.',
+      'Instead of presenting an unfinished product, this case study highlights individual UI pieces that explore hierarchy, layout rhythm, and reusable interface patterns.',
+    type: 'ui-lab',
+    focus: 'Component polish, layout hierarchy, and reusable interface thinking.',
+    tags: ['UI Design', 'Component Systems', 'Responsive Layout'],
+    outcome: 'Shows how separate interface ideas can still feel cohesive when built with one visual system.',
+    uiStudies: [
+      {
+        title: 'Analytics Header',
+        label: 'Dashboard',
+        style: 'analytics',
+        blurb: 'Performance snapshot for weekly growth and engagement.',
+      },
+      {
+        title: 'Pricing Snapshot',
+        label: 'Section',
+        style: 'pricing',
+        blurb: 'A tier comparison area focused on clarity and conversion.',
+      },
+      {
+        title: 'Google Olympics Home',
+        label: 'Landing Concept',
+        style: 'search',
+        blurb: 'A search-home concept featuring an Olympics campaign spotlight.',
+      },
+      {
+        title: 'Login Page',
+        label: 'Authentication',
+        style: 'login',
+        blurb: 'A clean sign-in layout focused on clarity, hierarchy, and ease of entry.',
+      },
+    ],
     link: 'https://github.com/BerryMuchocho',
   },
 ]

@@ -18,8 +18,8 @@ function App() {
   const { contact } = profile
 
   return (
-    <main className="portfolio-shell">
-      <section className="panel">
+    <main className="mx-auto w-full max-w-304 px-6 pb-16 pt-12 max-sm:px-3 max-sm:pb-10 max-sm:pt-4">
+      <section className="relative border border-(--border) bg-[linear-gradient(180deg,rgba(10,19,26,0.94),rgba(7,13,18,0.98)),var(--panel)] shadow-[0_24px_80px_rgba(0,0,0,0.35)]">
         <Navbar profile={profile} contact={contact} />
         <HeroSection profile={profile} contact={contact} />
       </section>
