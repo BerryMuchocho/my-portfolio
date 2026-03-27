@@ -63,7 +63,7 @@ npm run dev
 ### 4. Open in browser
 
 ```bash
-http://localhost:5173
+https://my-portfolio-alpha-sepia-72.vercel.app/
 ```
 
 ---
@@ -121,7 +121,7 @@ src/
 
 ## 🔗 Live Demo
 
-(Add deployed link — Vercel / Netlify)
+https://my-portfolio-alpha-sepia-72.vercel.app/
 
 ---
 
