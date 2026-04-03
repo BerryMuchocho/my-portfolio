@@ -56,8 +56,8 @@ export const projects = [
     description:
       'A modern laundry service web app that allows users to schedule pickups, track orders, and manage services seamlessly.',
     techStack: ['React', 'Tailwind CSS', 'Responsive UI'],
-    liveDemo: '',
-    github: 'https://github.com/BerryMuchocho',
+    liveDemo: 'https://dobi-now-laundry-app-q5m2.vercel.app/',
+    github: 'https://github.com/BerryMuchocho/DobiNow_Laundry_App',
     screenshot: {
       src: dobiHomeScreen,
       label: 'Home screen',
@@ -69,7 +69,7 @@ export const projects = [
     year: '2026',
     role: 'Frontend Developer',
     description:
-      'A fast-paced quiz application with category selection, timer-based gameplay, and dynamic scoring using live API data.',
+      'A React quiz application that handles API-driven content, state transitions, loading, retry logic, timing pressure, and result tracking in a clean, responsive UI.',
     techStack: ['JavaScript', 'API', 'Game Logic'],
     liveDemo: 'https://alx-fe-capstone-project-snowy.vercel.app/',
     github: 'https://github.com/BerryMuchocho/alx-fe-capstone-project',
@@ -142,6 +142,7 @@ export const galleryProjects = [
     focus: 'Booking flow, service visibility, and a calmer user journey.',
     tags: ['React', 'Service Flow', 'Responsive'],
     outcome: 'Built around a smoother booking-to-tracking journey for everyday users.',
+    link: 'https://dobi-now-laundry-app-q5m2.vercel.app/',
     screenshots: [
       { src: dobiHomeScreen, alt: 'DobiNow home screen', fit: 'contain' },
       { src: dobiBookScreen, alt: 'DobiNow booking screen', fit: 'contain' },
@@ -155,9 +156,9 @@ export const galleryProjects = [
     title: 'BrainBurst Quiz App',
     eyebrow: 'Project 02',
     subtitle:
-      'A playful but structured quiz interface built for speed, clarity, and engaging score-driven interactions.',
+      'A responsive React quiz interface built around API-driven questions, timed decisions, and clear state feedback.',
     summary:
-      'A lightweight trivia experience focused on momentum, fast decisions, and a UI that keeps players oriented as pressure rises.',
+      'Designed to manage loading, retries, timer pressure, and result tracking in a smooth flow that keeps players focused from question one to final score.',
     type: 'poster',
     focus: 'Fast gameplay, feedback loops, and score-driven interaction.',
     tags: ['JavaScript', 'API', 'Game Logic'],
